@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++: Debug with LLDB",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/outDebug",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "MIMode": "lldb",
+      "stopAtEntry": false
+    },
+    {
+      "name": "C++: Run Current File",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "MIMode": "lldb",
+      "stopAtEntry": false
+    },
+    {
+      "name": "(lldb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "${workspaceFolder}/a.out",
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/matthew/Library/CloudStorage/GoogleDrive-mattsoh100@gmail.com/My Drive/Mac/Coding/Olympiad/BOIT14",
+      "program": "/Users/matthew/Library/CloudStorage/GoogleDrive-mattsoh100@gmail.com/My Drive/Mac/Coding/Olympiad/BOIT14/build/Debug/outDebug"
+    }
+  ]
+}

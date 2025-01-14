@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/matthew/Library/CloudStorage/GoogleDrive-mattsoh100@gmail.com/My Drive/Mac/Coding/Olympiad/ST1",
+      "program": "/Users/matthew/Library/CloudStorage/GoogleDrive-mattsoh100@gmail.com/My Drive/Mac/Coding/Olympiad/ST1/build/Debug/outDebug"
+    }
+  ]
+}

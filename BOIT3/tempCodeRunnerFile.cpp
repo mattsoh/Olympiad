@@ -1,0 +1,1 @@
+for (auto i:letters)cout<<i<<' ';

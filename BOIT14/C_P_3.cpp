@@ -1,0 +1,2 @@
+print((t:=(q:=__import__)('sys').stdin.read().split('\n'))and'\n'.join(map(lambda x:str(sum(x)),zip(*(((c:=q('functools').cache(lambda d:sum(c(d[len(i):])for i in t[0].split(', ') if d.startswith(i))if d else 1))(i)>0,c(i))for i in t[2:])))))
+print((t:=(q:=__import__)('sys').stdin.read().split('\n'))and'\n'.join(map(lambda x:str(sum(x)),zip(*(((c:=q('functools').cache(lambda d:sum(c(d[len(i):])for i in t[0].split(', ')if d.startswith(i))if d else 1))(i)>0,c(i))for i in t[2:])))))

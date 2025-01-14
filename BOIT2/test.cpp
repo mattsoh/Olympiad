@@ -1,0 +1,1 @@
+(i.first.second > maxx.second and (i.first.second%2 == 1 and i.first.first < maxx.first) || (i.first.second%2 == 0)) || (i.first.second == maxx.second and i.first.first < maxx.first) || (i.first.second%2==0 and i.first.second+1 == maxx.second and i.first.first <= maxx.first)
