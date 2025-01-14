@@ -1,0 +1,3 @@
+Random stuff I do here...
+
+All in c++, some uncomplete code.
